@@ -7,7 +7,7 @@ class Car(object):
         self.speed = speed
         self.num_of_wheels = 4
 
-        if self.name == "Porsche" or self.name == "Koenigsegg":
+        if self.name == "Porshe" or self.name == "Koenigsegg":
             self.num_of_doors = 2
         else:
             self.num_of_doors = 4
