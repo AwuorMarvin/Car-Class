@@ -1,6 +1,3 @@
 {
-  "test_car.py::CarClassTest::test_car_doors": true,
-  "test_car.py::CarClassTest::test_car_properties": true,
-  "test_car.py::CarClassTest::test_car_speed": true,
-  "test_car.py::CarClassTest::test_car_wheels": true
+  "test_car.py::CarClassTest::test_car_doors": true
 }
