@@ -5,3 +5,15 @@ class Car(object):
         self.name = name
         self.model = model
         self.speed = speed
+
+    def is_saloon(self):
+        if self.car_type != "trailer":
+            return True
+        else:
+            return False
+    def drive(self, speed):
+        if self.car_type != "trailer":
+            self.speed = 10**speed
+        else:
+            self.speed = 77
+        return self
